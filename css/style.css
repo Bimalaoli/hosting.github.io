@@ -7,7 +7,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(../images/h.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(../image/h.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -277,7 +277,7 @@ nav .fa-solid{
 .student{
     width: 100%;
     min-height: 80vh;
-    background: url(../images/h.jpg) no-repeat fixed top center;
+    background: url(../image/h.jpg) no-repeat fixed top center;
     background-size: cover;
     background-position: center;
     overflow: hidden;
@@ -322,7 +322,7 @@ nav .fa-solid{
     margin-top: 40px;
     min-height: 50vh;
     width: 100%;
-    background: linear-gradient(rgba(4,9,30,0.8),rgba(4,9,30,0.8)),url(../images/oo.jpg);
+    background: linear-gradient(rgba(4,9,30,0.8),rgba(4,9,30,0.8)),url(../image/oo.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
