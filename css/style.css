@@ -387,3 +387,61 @@ nav .fa-solid{
 .lower-footer .fa-regular{
     color: rgb(168, 57, 144);
 }
+.header-contact{
+    min-height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(../image/Picture1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.venue{
+    width: 90%;
+    min-height: 50vh;
+    margin: auto;
+    align-items: center;
+}
+/*This is about css*/
+.header-about{
+    min-height: 80vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(../image/Picture1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.why-collage{
+    width: 90%;
+    margin: auto;
+    text-align: left;
+    padding: 100px;
+
+}
+.why-collage-col{
+    flex-basis: 44%;
+    flex-direction: row;
+}
+.why-collage-col img{
+    width: 100%;
+}
+.why-collage-col h3{
+    color: #000;
+    position: relative;
+    margin-bottom: 35px;
+    font-size: 28px;
+}
+.why-collage-col h3::before{
+    content: '';
+    left: 0;
+    bottom: -12px;
+    height: 2px;
+    width: 90%;
+    background: #ff4800;
+    position: absolute;
+}
+.redcolor{
+    background-color: red;
+    text-decoration: none;
+    margin-top: 30px;
+    
+}
